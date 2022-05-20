@@ -92,17 +92,17 @@ jobs:
           CONFIG_TARGET_SUBTARGET="64"
           CONFIG_TARGET_PROFILE="DEVICE_generic"
           CONFIG_TARGET_ARCH_PACKAGES="x86_64"
-					CONFIG_TARGET_IMAGES_GZIP=y
-					CONFIG_GRUB_EFI_IMAGES=y
-					CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
-					CONFIG_PACKAGE_ipv6helper=y
-					CONFIG_PACKAGE_luci-app-koolproxyR=y
-					CONFIG_PACKAGE_luci-app-store=y
-					CONFIG_PACKAGE_luci-app-ttyd=y
-					CONFIG_PACKAGE_luci-app-adbyby-plus=y
-					# CONFIG_PACKAGE_luci-app-samba is not set
-					# CONFIG_PACKAGE_luci-app-kodexplorer is not set
-					# CONFIG_PACKAGE_luci-app-music-remote-center is not set
+          CONFIG_TARGET_IMAGES_GZIP=y
+          CONFIG_GRUB_EFI_IMAGES=y
+          CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
+          CONFIG_PACKAGE_ipv6helper=y
+          CONFIG_PACKAGE_luci-app-koolproxyR=y
+          CONFIG_PACKAGE_luci-app-store=y
+          CONFIG_PACKAGE_luci-app-ttyd=y
+          CONFIG_PACKAGE_luci-app-adbyby-plus=y
+          # CONFIG_PACKAGE_luci-app-samba is not set
+          # CONFIG_PACKAGE_luci-app-kodexplorer is not set
+          # CONFIG_PACKAGE_luci-app-music-remote-center is not set
           EOF
 
 
